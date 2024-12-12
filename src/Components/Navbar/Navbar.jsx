@@ -21,7 +21,7 @@ function Navbar() {
 
         {/* Right Navbar --Start */}
         <div className="lg:w-[60%] w-[100%] flex relative sm:overflow-x-clip">
-          <ul className="sm:flex flex-1 lg:gap-[35px] gap-[20px] lg:justify-end sm:justify-center justify-center lg:items-center mr-[130px]">
+          <ul className="sm:flex flex-1 lg:gap-[35px] gap-[20px] lg:justify-end sm:justify-center lg:items-center mr-[130px]">
             <li className="text-[18px] leading-[21.09px] font-[500]">
               About Us
             </li>

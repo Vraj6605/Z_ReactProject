@@ -15,7 +15,7 @@ function Hero() {
           className="lg:w-[643.63px] sm:w-[420px] w-[390px] lg:h-[438.44px] sm:h-[300px] h-[210px] absolute bottom-0 lg:left-[148.19px] left-0 max-sm:hidden"
           src={hu}
           alt="No image"
-        /> 
+        />
         <div className="w-[210px] absolute lg:invisible visible lg:right-[130px] sm:right-[60px] right-[30px] sm:font-[500] sm:text-[30px] mt-[40px] ">
           <h1 className="max-sm:font-[700] text-[26px]">
             Mendleson Communication and Engagement
@@ -49,10 +49,8 @@ function Hero() {
         </div>
       </div>
       {/* Hero Right -- End */}
-      
     </section>
   );
 }
 
 export default Hero;
-
