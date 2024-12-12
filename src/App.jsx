@@ -11,7 +11,7 @@ import Footer from './Components/Footer/Footer'
 
 function App() {
   return (
-    <div>
+    <div className=' transition-opacity'>
       <Navbar/>
       <Hero/>
       <About/>

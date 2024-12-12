@@ -4,7 +4,7 @@ function Client() {
  
   return (
     <div className="flex-1 mb-[75px] relative ">
-      <h1 className="text-center font-Rubik font-[500] lg:text-[48px] text-[40px] leading-[56.88px] ">
+      <h1 id="Clients" className="text-center font-Rubik font-[500] lg:text-[48px] text-[40px] leading-[56.88px] ">
         OUR CLIENTS
       </h1>
       {/* Border -Start */}

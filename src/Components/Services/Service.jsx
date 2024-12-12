@@ -9,7 +9,7 @@ function Service() {
   return (
     <section>
       <div className="lg:mt-[129px] mt-[40px] mb-[182px] ">
-        <h1 className="font-Rubik font-[500] lg:text-[48px] text-[40px] leading-[56.88px] text-center mb-[2px]">
+        <h1 id="Services" className="font-Rubik font-[500] lg:text-[48px] text-[40px] leading-[56.88px] text-center mb-[2px]">
           SERVICES
         </h1>
         {/* Border -Start */}

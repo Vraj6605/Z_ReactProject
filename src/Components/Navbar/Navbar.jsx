@@ -1,9 +1,11 @@
 import React from "react";
 import { LT, TR, logo } from "../Assets";
+
+
 function Navbar() {
   return (
-    <header>
-      <nav className="lg:flex flex-1 ">
+    <header  className="sticky top-0 bg-white z-40 ">
+      <nav className="lg:flex flex-1">
         {/* Left Navbar --Start */}
         <div className="lg:w-[50%] w-[100%] flex lg:flex-1 gap-[11px] ">
           <img
@@ -11,29 +13,33 @@ function Navbar() {
             src={LT}
             alt="No image"
           />
+          <a href="#Home">
           <img
             className="lg:w-[295px] lg:h-[85px] w-[195px] h-[80px] aspect-auto "
             src={logo}
             alt="Logo"
           />
+          </a>
         </div>
         {/* Right Navbar --End */}
 
         {/* Right Navbar --Start */}
-        <div className="lg:w-[60%] w-[100%] flex relative sm:overflow-x-clip">
-          <ul className="sm:flex flex-1 lg:gap-[35px] gap-[20px] lg:justify-end sm:justify-center lg:items-center mr-[130px]">
+        <div className="lg:w-[60%] w-[100%] flex relative sm:overflow-x-clip lg:pb-0 pb-[20px]">
+          <ul className="sm:flex flex-1  lg:gap-[35px] gap-[20px] lg:justify-end sm:justify-center lg:items-center mr-[130px]">
             <li className="text-[18px] leading-[21.09px] font-[500]">
-              About Us
+              <a href="#About">AboutUs</a>
             </li>
             <li className="text-[18px] leading-[21.09px] font-[500]">
-              Services
-            </li>
-            <li className="text-[18px] leading-[21.09px] font-[500]">Team</li>
-            <li className="text-[18px] leading-[21.09px] font-[500]">
-              Clients
+            <a href="#Services">Services</a>
             </li>
             <li className="text-[18px] leading-[21.09px] font-[500]">
-              Contact Us
+              <a href="#Team">Team</a>
+            </li>
+            <li className="text-[18px] leading-[21.09px] font-[500]">
+              <a href="#Clients">Clients</a>
+            </li>
+            <li className="text-[18px] leading-[21.09px] font-[500] z-20">
+              <a href="#Contact">ContactUs</a>
             </li>
           </ul>
           <div>

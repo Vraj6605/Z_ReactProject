@@ -9,7 +9,7 @@ function Team() {
   
   return (
     <div className="relative">
-      <h1 className="lg:text-[48px] text-[40px] font-Rubik font-[500] text-center leading-[56.88px] ">OUR TEAM</h1>
+      <h1 id='Team' className="lg:text-[48px] text-[40px] font-Rubik font-[500] text-center leading-[56.88px] ">OUR TEAM</h1>
        {/* Border -Start */}
        <div className="flex items-center w-[238px] m-auto mb-[40px] ">
           <p className="w-[101px] h-[7px] rounded-lg bg-[#A9A9A9]"></p>

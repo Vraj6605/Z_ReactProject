@@ -16,7 +16,7 @@ function About() {
 
         {/* Right Part-- Start */}
         <div className="lg:w-[658px] w-[100%] lg:h-[475px] h-[auto] lg:mr-[130px] mr-[0px] sm:p-[20px]">
-          <h1 className="font-Rubik font-[500] sm:text-[48px] text-[40px] leading-[56.88px] text-center lg:text-start">
+          <h1 id="About" className="font-Rubik font-[500] sm:text-[48px] text-[40px] leading-[56.88px] text-center lg:text-start">
             ABOUT US
           </h1>
 

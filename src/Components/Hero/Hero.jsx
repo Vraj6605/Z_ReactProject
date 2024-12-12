@@ -3,9 +3,9 @@ import { BL, BR, hu } from "../Assets";
 
 function Hero() {
   return (
-    <section className="lg:flex flex-1">
+    <section id="Home" className="lg:flex flex-1">
       {/* Hero Left -- Start */}
-      <div className="flex lg:items-end lg:w-[60%] w-[100%] relative bg-[url('././assets\BC.png')] bg-no-repeat sm:bg-cover max-lg:bg-bottom">
+      <div  className="flex lg:items-end lg:w-[60%] w-[100%] relative bg-[url('././assets\BC.png')] bg-no-repeat sm:bg-cover max-lg:bg-bottom">
         <img
           className="lg:w-[266px] w-[100px] lg:h-[580px] h-[360px] lg:mt-[209px] mt-[20px]"
           src={BL}
